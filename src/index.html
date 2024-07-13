@@ -10,20 +10,31 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
+      <div class="mt-5">
+        <h1 id="excuse">
+          My cat always interrupts my classes
+        </h1>
+        <button id="generate-excuse" class="btn bg-primary-subtle my-3">
+          Excuse
+        </button>
+      </div>
       <div class="fixed-bottom p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://www.4geeksacademy.com">Latam pt-33</a>
       </div>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
